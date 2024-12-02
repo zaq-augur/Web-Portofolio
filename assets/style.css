@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    box-sizing: border-box;
+}
+body {
+    background-color: #00272b;
+}
+.head{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #e0ff4f;
+    
+}
+.navbar a {
+    font-size: 15px;
+    color: #e0ff4f;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: 400;    
+}
+.beranda{
+    height: 100vh;
+    background: url(Artboard2.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+}
+.beranda-konten{
+    max-width: 700px;
+    padding: 30px;
+    color: #e0ff4f;
+}
+.beranda-konten h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.beranda-konten h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.about{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background: #e0ff4f;
+
+}
+.about img{
+    height: auto;
+    width: 250px;
+    margin-right: 80px;
+    border-radius: 1000px;
+    filter: drop-shadow(10px 10px 20px #001012);
+}
+.about-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #00272b;
+    scroll-margin-top: 200px;
+}
+.about-text h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00272b;
+}
+.about-text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #00272b;
+}
+.about-konten{
+    width: 1130px;
+    max-width: 100%;
+    padding: 100px;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.projek{
+    width: 1130px;
+    max-width: 100%;
+    padding: 100px;
+}
+
+.projek-konten ul li img{
+    height: auto;
+    justify-content: center;
+    width: 280px;
+    padding: 30px;
+    border-radius: 50px;
+    filter: drop-shadow(10px 10px 20px black);
+}
+.projek-konten ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.projek-konten h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #e0ff4f;
+    scroll-margin-top:60px;
+}
+.projek-konten p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #e0ff4f;
+    margin-bottom: 20px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background:#e0ff4f;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #00272b;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sosmed {
+    display: flex;
+}
+.sosmed a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background:#00272b ;
+    color: #e0ff4f;
+    border-radius: 10px;
+    margin: 22px 10px;
+}
+.copy{
+    margin: 30px 20px;
+    font-size: 15px;
+    color: #e0ff4f;
+    font-weight: 400;
+    text-align: center;
+}
